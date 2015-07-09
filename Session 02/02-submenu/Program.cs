@@ -4,9 +4,12 @@ class Program
 {
 	public static void Main (string[] args)
 	{
+
+		//Excercise: Try to optimize and reduce lines of code in this program
+
 		string choice;
 		for (;;) {
-			
+
 			Console.Clear ();
 			Console.WriteLine ("=== MAIN MENU ===");
 			Console.WriteLine ("1. FILE");
@@ -18,7 +21,7 @@ class Program
 			switch (Console.ReadLine ()) {
 			case "1":
 				for (;;) {
-					
+
 					Console.Clear ();
 					Console.WriteLine ("==== FILE ====");
 					Console.WriteLine ("1. NEW");
@@ -52,7 +55,7 @@ class Program
 				break;
 			case "2":
 				for (;;) {
-					
+
 					Console.Clear ();
 					Console.WriteLine ("=== EDIT ===");
 					Console.WriteLine ("1. CUT");
