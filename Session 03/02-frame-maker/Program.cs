@@ -5,9 +5,9 @@ class Program
 	static void Main ()
 	{
 
-    /* Excercise:
-        1. Try to optimize and reduce lines of code in this program.
-        2. Enable shadow direction (Right-Bottom, Right-Top, Left-Bottom, Left-Top) */
+		/* Excercise:
+			1. Try to optimize and reduce lines of code in this program.
+			2. Enable shadow direction (Right-Bottom, Right-Top, Left-Bottom, Left-Top) */
 
 		int frameWidth = GetInt32 ("Frame Width");
 		int frameHeight = GetInt32 ("Frame Height");
