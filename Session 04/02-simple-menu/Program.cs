@@ -53,10 +53,8 @@ class Program
 
     static void SwapColors ()
     {
-        ConsoleColor oldBackgroundColor = Console.BackgroundColor;
-        ConsoleColor oldForegroundColor = Console.ForegroundColor;
-
-        Console.BackgroundColor = oldForegroundColor;
-        Console.ForegroundColor = oldBackgroundColor;
+        ConsoleColor originalBackgroundColor = Console.BackgroundColor;
+        Console.BackgroundColor = Console.ForegroundColor;
+        Console.ForegroundColor = originalBackgroundColor;
     }
 }
