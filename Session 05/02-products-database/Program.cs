@@ -13,9 +13,8 @@ class Program
         };
         var selectedMenuItem = 0;
 
-        var maximumProductsCount = 1000000;
-        var productNames = new string[maximumProductsCount];
-        var productPrices = new double[maximumProductsCount];
+        var productNames = new string[1000000];
+        var productPrices = new double[productNames.Length];
         var currentProduct = 0;
 
         Console.CursorVisible = false;
