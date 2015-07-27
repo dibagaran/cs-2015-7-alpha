@@ -16,5 +16,8 @@
 * [C# Pad](http://csharppad.com/)
 * [Learn C#](http://www.learncs.org/en/Dictionaries)
 
+### Articles
+* [6 Signs That You Are Not Meant To Be A Programmer](http://www.makeuseof.com/tag/6-signs-meant-programmer/)
+
 ### Questions & Answers:
 * [Stack Overflow](http://stackoverflow.com)
