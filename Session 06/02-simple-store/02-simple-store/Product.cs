@@ -8,10 +8,9 @@ namespace Project
         public double price;
         public int count;
 
-        public string asString() /* Later on, after learning inheritance we'll be overriding toString method instead. */
+        public string asString() // Later on, after learning inheritance we'll be overriding toString method instead.
         {
             return name + " (Price: " + price + "$, Count: " + count + ")";
         }
     }
 }
-
