@@ -33,6 +33,7 @@ class Rectangle
         this.width = this.height = size;
     }
 
+    // Later on, after learning inheritance we'll be overriding ToString method instead.
     public string AsString ()
     {
         return "{ width: " + this.width + ", height: " + this.height + " }";

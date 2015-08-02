@@ -52,10 +52,9 @@ namespace Project
             string report = "";
 
             for (int i = 0; i < currentProduct; i++)
-                report += (products[i].asString() + Environment.NewLine);
+                report += (products[i].AsString() + Environment.NewLine);
 
             return report;
         }
     }
 }
-
