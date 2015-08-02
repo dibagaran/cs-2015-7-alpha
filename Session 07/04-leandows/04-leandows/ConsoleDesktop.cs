@@ -19,8 +19,7 @@ namespace Project
         public void Add (Leandow leandow)
         {
             Console.BackgroundColor = ConsoleColor.Gray;
-            Console.SetCursorPosition (leandow.Offset.Left, leandow.Offset
-                .Top);
+            Console.SetCursorPosition (leandow.Offset.Left, leandow.Offset.Top);
             Console.Write (leandow.Title);
             for (int j = 0; j < leandow.Size.Width - leandow.Title.Length; j++)
                 Console.Write (" ");
@@ -38,4 +37,3 @@ namespace Project
         }
     }
 }
-
