@@ -21,7 +21,8 @@ class Rectangle
     private int width;
     private int height;
 
-    public void SetSize (int width, int height) /* This method is overloaded by the next method. */
+    // This method is overloaded by the next method.
+    public void SetSize (int width, int height)
     {
         this.width = width;
         this.height = height;
