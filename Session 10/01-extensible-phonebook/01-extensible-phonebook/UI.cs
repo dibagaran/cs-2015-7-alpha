@@ -56,7 +56,7 @@ namespace Project
 
 
                 //TODO: This single long line of code is equivalent to all the commented codes above. Analyze and try to understand it carefully.
-                Phonebook.Add (Console.ReadKey (true).Key != ConsoleKey.C ? new Person (Get ("First Name"), Get ("Last Name"), Get ("Phone Number"), Get ("Address")) : new Company (Get ("Title"), Get ("Phone Number"), Get ("Address")));
+                Phonebook.Add (Console.ReadKey (true).Key != ConsoleKey.C ? (Contact) new Person (Get ("First Name"), Get ("Last Name"), Get ("Phone Number"), Get ("Address")) : (Contact) new Company (Get ("Title"), Get ("Phone Number"), Get ("Address")));
 
                 break;
             case ConsoleKey.D2:
