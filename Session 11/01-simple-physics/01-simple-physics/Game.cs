@@ -10,7 +10,7 @@ namespace Project
 
         public static float StageHeight { get; set; }
 
-        private static Vector gravity = new Vector (0, 9.8f);
+        private static Vector gravity = new Vector (0, 5);
         private static float friction = .9f;
 
         static Game ()

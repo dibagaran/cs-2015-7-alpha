@@ -22,7 +22,7 @@ namespace Project
             Game.StageWidth = this.Width = Screen.PrimaryScreen.Bounds.Width;
             Game.StageHeight = this.Height = Screen.PrimaryScreen.Bounds.Height;
 
-            var timer = new Timer{ Interval = 1000 / 60 };
+            var timer = new Timer{ Interval = 10 };
             timer.Tick += delegate {
                 Game.Update ();
                 Invalidate ();
@@ -44,7 +44,7 @@ namespace Project
         {
             if (e.Button == MouseButtons.Left) {
                 var size = random.Next (20, 150);
-                var speedX = random.Next (-50, 50);
+                var speedX = random.Next (-25, 25);
 
                 var color =
                     0xFF000000 +
